@@ -1,6 +1,8 @@
 const express = require('express');
 const { algoTrader } = require('./server');
 
+const PORT = process.env.PORT || 2001
+
 const openId = "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"
 
 const app = express();
@@ -17,6 +19,6 @@ app.post("/start", async(req, res, next) => {
   res.send("Connected")
 });
 
-app.listen(2001, () => {
+app.listen(PORT, () => {
   console.log("App is running")
 });
