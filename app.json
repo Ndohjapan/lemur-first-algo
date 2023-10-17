@@ -4,7 +4,9 @@
   "website": "https://google.com",
   "repository": "https://github.com/Ndohjapan/lemur-first-algo",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg",
-  "scripts": {},
+  "scripts": {
+    "postdeploy": "npm install"
+  },
   "env": {},
   "addons": []
 }
