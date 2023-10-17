@@ -6,7 +6,5 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ruby_on_Rails_logo.svg",
   "scripts": {},
   "env": {},
-  "addons": [
-    ""
-  ]
+  "addons": []
 }
