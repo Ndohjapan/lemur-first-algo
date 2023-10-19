@@ -14,8 +14,8 @@ app.get("/", async(req, res, next) => {
 });
 
 app.post("/start", async(req, res, next) => {
-  const {keyId, secretKey, paper} = req.body;
-  algoTrader(keyId, secretKey, openId, paper)
+  const {token, paper, amount} = req.body;
+  algoTrader(token, openId, paper)
   res.send("Connected")
 });
 
